@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(237, 246, 248);
+  margin-bottom: 1rem;
+}
+
+.topcard {
+
+  padding-bottom: 8rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 2rem;
+}
+
+.card {
+  /* background-color: blueviolet; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin: auto;
+  width: 90%;
+}
+
+.fir {
+  margin: auto;
+  background-color: rgb(207, 239, 209);
+  box-shadow: 0px 0px 10px -2px black;
+}
+
+.secn {
+  margin: auto;
+  background-color: rgb(207, 239, 209);
+  box-shadow: 0px 0px 10px -2px black;
+}
+
+.thrd {
+  margin: auto;
+  background-color: rgb(207, 239, 209);
+  box-shadow: 0px 0px 10px -2px black;
+}
+
+.four {
+  margin: auto;
+  background-color: rgb(207, 239, 209);
+  box-shadow: 0px 0px 10px -2px black;
+}
+
+img {
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+

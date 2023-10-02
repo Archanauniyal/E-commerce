@@ -1,0 +1,46 @@
+.topcard {
+  padding-bottom: 4rem;
+  /* margin-left: 5rem; */
+  /* padding-left: 5px; */
+  padding-right: 32rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5rem;
+  /* margin-right: 1rem; */
+  width: 600px;
+  gap: 6rem;
+  height: 400px;
+}
+
+.first {
+  margin: auto;
+  background-color: rgb(207, 239, 209);
+  box-shadow: 0px 0px 10px -2px black;
+}
+
+.sec {
+  margin: auto;
+  background-color: rgb(194, 235, 172);
+  box-shadow: 0px 0px 10px -2px black;
+}
+
+.third {
+  margin: auto;
+  background-color: rgb(204, 233, 185);
+  box-shadow: 0px 0px 10px -2px black;
+}
+
+.imges {
+  margin: auto;
+  text-align: center;
+}
+
+.imges img {
+  border-radius: 0.5rem;
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
