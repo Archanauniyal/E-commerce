@@ -12,6 +12,7 @@ export default function Navbar() {
 
   return (
     <>
+    
       <div className="arc">
         <div
           style={{ cursor: "pointer", color: "white" }}
@@ -34,6 +35,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+     
       {/* {show ? (
         <>
           <span>{show}</span>

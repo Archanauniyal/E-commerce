@@ -1,20 +1,16 @@
 .navbar{
     display:flex;
-    /* padding: 2rem; */
     justify-content: space-between;
     color: white;
     gap: 1rem ;
 }
 .nav{
     display: flex;
-    /* padding: 1rem; */
     justify-content: space-between;
-    /* text-decoration: none; */
-    
 }
 
 .navn{
-    color: rgb(17, 34, 2);
+    color:rgb(224, 106, 169);
     text-decoration: none !important;
 }
 
@@ -22,8 +18,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgba(47, 146, 74, 0.436);
+    background-color:rgb(12, 12, 120);
     padding: 2rem;
+  
 }
 .images{
     display: flex;
@@ -32,37 +29,44 @@
 }
 
 .images img{
-   width: 40rem;
-   border-radius: 2rem;
+   width: 35rem;
+   height: 30rem;
    
 }
 .body{
  display: flex;
  flex-direction: row;
- color: rgb(38, 13, 7);
+ color: rgb(241, 98, 62);
  justify-content: space-between;
  padding: 0rem 2rem ;
  gap: 6rem;
  margin: 5rem;
+  /* background-image: url("../Logo/shopping\ 41.jpg"); */
 
 }
 
 .text{
-    color: rgb(26, 226, 132);
+    color: rgb(20, 6, 75);
     padding-top: 2rem;
     width: 70% !important;
+    font-size: 5vh;
+}
+.heading1{
+    font-size: 3vh;
 }
 
 .button{
-    color: rgb(7, 95, 63);
+    color: blue;
     padding: 1rem;
     margin: 1rem;
-   border-radius: 1rem;
+    border-radius: 20px;
+    border-color: blue;
+    width: 10rem;
 
 }
 .heading{
     font-size: 3.5rem;
-    color: black;
+    color: rgb(224, 106, 169);
 }
 .logo{
     height: 30px;

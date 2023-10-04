@@ -20,12 +20,6 @@ export const Images = () => {
       <div>
         <Navbar/>
       </div>
-      <div className ="form">
-     <form  action="/search" method="get">
-        <input type="text" name="q" placeholder="Search..."/>
-        <input type="submit" value="Search"/>
-    </form>
-    </div>
       <div className="topcard">
         <div className="card">
           <div className="fir">

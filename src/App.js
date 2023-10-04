@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import { About } from "./Components/Pages/About";
 import { Contact } from "./Components/Pages/Contact";
 import { Images } from "./Components/Pages/Images";
+import pic3 from "./Components/Logo/shopping 20.jpg";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {

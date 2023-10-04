@@ -1,0 +1,19 @@
+.img2{
+border-radius: 0.5rem;
+width: 400px;
+height: 400px;
+object-fit: fill;
+}
+
+.archn {
+    height: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5),rgba(255, 255, 0, 0.5));
+  
+}
+
+.durgesh{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 8%;
+}
